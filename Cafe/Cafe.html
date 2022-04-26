@@ -30,28 +30,28 @@
             <br>
             <div class="options">
                 <div >
-                    <input type="radio" name="type" id="Hot" checked>
+                    <input type="radio" name="type" id="Hot" value="Hot" checked>
                     <label for="Hot">Hot</label>
-                    <input type="radio" name="type" id="Cold">
+                    <input type="radio" name="type" id="Cold" value="Cold">
                     <label for="Cold">Cold </label>
                    
                 </div>
                 <div >
-                    <input type="radio" name="size" id="small" checked>
+                    <input type="radio" name="size" id="small" value="small" checked>
                     <label for="small">Small</label>
-                    <input type="radio" name="size" id="medium">
+                    <input type="radio" name="size" id="medium" value="Medium">
                     <label for="medium">Medium</label>
-                    <input type="radio" name="size" id="large">
+                    <input type="radio" name="size" id="large" value="Large">
                     <label for="large">Large</label>
-                    <input type="radio" name="size" id="larger">
+                    <input type="radio" name="size" id="larger" value="Super-size-me">
                     <label for="larger">Super-size-me</label>
                    
                 </div>
         
                 <div>
-                    <input type="radio" name="drinks" id="coffee" checked>
+                    <input type="radio" name="drinks" id="coffee" value="Coffee" checked>
                     <label for="coffee">Coffee</label>
-                    <input type="radio" name="drinks" id="Tea">
+                    <input type="radio" name="drinks" id="Tea" value="Tea">
                     <label for="Tea">Tea</label>
                     
                 </div>
@@ -64,30 +64,30 @@
                     <div>
                         <br>
                         <h3>Coffe only</h3>
-                        <input type="checkbox" name="addons" id="Sugar">
+                        <input type="checkbox" name="addons" id="Sugar" value="Sugar">
                         <label for="Sugar">Sugar</label>
                         <br>
-                        <input type="checkbox" name="addons" id="Milk">
+                        <input type="checkbox" name="addons" id="Milk" value="Milk">
                         <label for="Milk">Milk</label>
                         <br>
-                        <input type="checkbox" name="addons" id="Stevia">
+                        <input type="checkbox" name="addons" id="Stevia" value="Stevia">
                         <label for="Stevia">Stevia</label>
                     </div>
                     <div>
                         <h3>Tea only</h3>
-                        <input type="checkbox" name="addons" id="Chai">
+                        <input type="checkbox" name="addons" id="Chai" value="Chai">
                         <label for="Chai">Chai</label>
                         <br>
-                        <input type="checkbox" name="addons" id="Earl">
+                        <input type="checkbox" name="addons" id="Earl" value="Earl">
                         <label for="Earl">Earl Grey Tea</label>
                         <br>
-                        <input type="checkbox" name="addons" id="matcha">
+                        <input type="checkbox" name="addons" id="matcha" value="Matcha">
                         <label for="matcha">Matcha</label>
                         <br>
-                        <input type="checkbox" name="addons" id="wulong">
+                        <input type="checkbox" name="addons" id="wulong" value="Wulong">
                         <label for="wulong">Wulong</label>
                         <br>
-                        <input type="checkbox" name="addons" id="herbal">
+                        <input type="checkbox" name="addons" id="herbal" value="Herbal">
                         <label for="herbal">Herbal</label>
                     </div>
 
@@ -109,13 +109,7 @@
             </div>
             
         </form>
-        <script>
-            function onSubmit()
-            {
-                let name = document.querySelector("#name").value
-                alert(`Hi ${name} thank you! for ordering. Unfortunately this page is just a test...`)
-            }
-        </script>
+       <script src="script.js"></script>
         
     </div>
     
